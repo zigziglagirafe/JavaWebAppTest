@@ -1,0 +1,12 @@
+[
+    {"name":"Margueritte", 
+        "id":"margui",
+        "img":"http://www.rondo-online.com/uploads/pics/Pizza_01549_gr.jpg", 
+        "desc":"1Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus suscipit purus sit amet tortor semper, at dapibus nibh lacinia. Suspendisse at risus et quam lacinia tincidunt. Donec mattis suscipit malesuada. Cras vulputate nisi nunc. Nullam pellentesque erat at ornare tempor.",
+        "price":12},
+    {"name":"Reine", 
+        "id":"reine",
+        "img":"http://www.rondo-online.com/uploads/pics/Pizza_01549_gr.jpg", 
+        "desc":"1Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus suscipit purus sit amet tortor semper, at dapibus nibh lacinia. Suspendisse at risus et quam lacinia tincidunt. Donec mattis suscipit malesuada. Cras vulputate nisi nunc. Nullam pellentesque erat at ornare tempor.",
+        "price":10}
+]

@@ -1,0 +1,38 @@
+
+<div class="container"
+     ng-controller="PizzasController">
+
+    <div class="row">
+        <div class="col-lg-3 col-md-12">
+            <p class="navbar-text">Recherche une pizza</p>
+        </div>
+        <div class="col-lg-3  col-md-12">
+            <input type="text" class="form-control" placeholder="Rechercher" ng-model="searchText">
+        </div>
+
+        <div class="col-lg-3  col-md-12">
+            <select ng-model="orderProp" class="form-control">
+                <option value="name">Nom</option>
+                <option value="price">Prix</option>
+            </select>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-lg-12">
+            <table class="table table-striped">
+                <tr ng-repeat="pizza in pizzasList| filter:searchText | orderBy:orderProp">
+                    <td><a href="#/pizzasList/{{pizza.id}}">{{pizza.name}}</a></td>
+                    <td><a href="#/pizzasList/{{pizza.id}}" class="thumb"><image ng-src="{{pizza.img}}"></a></td>
+                    <td>{{pizza.desc}}</td>
+                    <td>{{pizza.price}}</td>
+                    <td>
+                        <button type="button" class="btn btn-default"
+                                ng-click="addItem(pizza)">Add</button>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+</div> <!-- /container --> 

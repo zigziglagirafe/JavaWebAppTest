@@ -1,0 +1,37 @@
+
+<div class="container"
+     ng-controller="PizzaDetailController">
+    <!-- Example row of columns -->
+    <div class="well">
+        PIZZA DETAIL DE {{pizza.desc2}}
+    </div>
+    <div class="panel panel-default">
+        <div class="panel-heading">Images</div>
+        <div class="panel-body">
+            <div class="row">
+                <div class="col-lg-3 col-md-3 col-sm-5 col-xs-5" ng-repeat="image in pizza.images">
+                    <div class="thumbnail" >
+                        <img ng-src="{{image}}"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="panel panel-default">
+        <div class="panel-heading">Images</div>
+        <div class="panel-body">
+        <p>Ingrédients</p>
+        <div ng-repeat="ingr in pizza.ingredients">
+            <p>{{ingr}}</p>
+        </div>
+        </div>
+    </div>
+    <div>
+        <p>Vegi : {{pizza.vegi| checkmark}}</p>
+    </div>
+    <div>
+        <p>{{ 1304375948024 | date }}</p>
+    </div>
+
+
+</div> <!-- /container --> 

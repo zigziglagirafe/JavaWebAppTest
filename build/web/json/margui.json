@@ -1,0 +1,8 @@
+{
+    "desc2":"Une description supplémentaire", 
+    "ingredients": ["peperoni", "fromage"],
+    "vegi":true,
+    "images":["http://www.auchandirect.fr/static/images/products/detail/83234.jpg",
+        "http://mda.bigoven.com/pics/rs/256/gourmet-pizza-sauce.jpg",
+        "http://mda.bigoven.com/pics/rs/256/thick-crust-or-pan-pizza-dough-2.jpg"]
+}
